@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgb(2, 2, 2);
+}
+
+
+
+header{
+    background-color: rgba(0, 0, 0, 0);
+    top: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+
+
+
+.logo{
+    position: absolute;
+    top: -35px;
+    left: 80px;
+
+}
+
+.logo img{
+    width: 170px;
+    height: 170px;
+}
+
+
+
+
+
+.lista-nav{
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    top: 50px;
+
+
+}
+
+
+.anc{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 70px;
+}
+
+.anc:hover{
+    color: rgb(196, 110, 13);
+    transition: .3s ;
+}
+
+
+
+
+
+.conte-barr{
+    background-color: rgb(13,12,17);
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    bottom: -120px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+
+
+.againlogo{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.span{
+    color: white;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: 280px;
+    left: 130px;
+    
+}
+
+
+.reservar{
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(13,12,17);
+    width: 170px;
+    height: 50px;
+    left: 165px;
+    bottom: 180px;
+    border: 1px solid white;
+    padding: 15px 0px 0px 30px;
+    color: white;
+}
+
+.reservar:hover{
+    transition: .3s ease-in-out;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+h2{
+    font-size: 15px;
+    font-family: normal normal normal,sans-serif;
+    font-weight:lighter;
+}
+
+
+.line{
+    height: 1px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+
+
+.direc{
+    color: white;
+    font-family: normal normal normal,sans-serif;
+    position: relative;
+    text-align: center;
+    top: 80px;
+
+    
+}
+
+
+
+
+.backbar{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+}
+
+.backbar img{
+    width: 100%;
+    height: 850px;
+
+}
+
+
+
+
+.sec-1{
+    margin-top: 550px;
+}
+
+
+
+.conte-info{
+    width: 100%;
+    top: 0px;
+    height: 50%;
+}
+
+
+
+.conte-info span{
+    
+    position:relative;
+    bottom: 190px;
+    left: 150px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Syne', sans-serif;
+    
+}
+
+
+.conte-info p{
+    position: relative;
+    left: 50%;
+    bottom: 250px;    
+    color: white;
+    display:block;
+    width: 600px;
+    font-size: 19px;
+    font-family: normal normal normal,sans-serif;
+    line-height: 30px;
+    
+}
+
+
+
+.conte-info hr{
+    border-top: 1px  white;
+    height: 1px;
+    max-width: 1200px;
+    
+    position: relative;
+    bottom: 150px;
+    left: 90px;
+}
+
+
+
+
+.sec-2{
+    margin-top: 300px;
+}
+
+
+
+
+.conte-info2{
+    width: 100%;
+    top: 0px;
+    height: 50%;
+    margin-top: -50px;
+}
+
+
+.conte-info2 span{
+    position:relative;
+    left: 130px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Syne', sans-serif;
+    bottom: 240px;
+}
+
+
+
+.conte-info2 h3{
+    color: white;
+    position: relative;
+    left: 68%;
+    max-width: 200px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    bottom: 50px;
+    margin-bottom: 0px;
+    
+
+}
+
+.cincopor{
+    color: white;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 67%;
+    max-width: 300px;
+
+}
+
+
+
+.horario{
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 70%;
+    bottom:-40px ;
+    max-width: 200px;
+    line-height: 30px;
+    
+
+}
+
+
+
+
+
+
+
+.apre{
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(13,12,17);
+    width: 170px;
+    height: 50px;
+    left:70%;
+    bottom: -200%;
+    border: 1px solid white;
+    padding: 15px 0px 0px 30px;
+    color: white;
+
+}
+
+.apre:hover{
+    transition: .3s ease-in-out;
+    background-color: white;
+    color: black;
+}
+
+.resep{
+    font-size: 15px;
+    font-family: normal normal normal,sans-serif;
+    font-weight:lighter;
+}
+
+
+/*
+background-position: 3cm 5cm;
+
+
+background-position: 2cm 50% ;
+
+
+
+left: 10%;
+    bottom: -215%;
+
+background-position: 8em;
+
+
+
+
+background-position: 20%;
+
+
+
+
+-----------------------
+
+ background-image: url(imagenes/birranegra22.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40% 80%;
+    
+    
+    width: 50%;
+    height: 480px;
+    
+
+*/
+
+
+
+
+.cnegra{
+    background-image: url(../imagenes/zyro-image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 42% 105%;
+
+    background-position: 10em;
+    
+    width: 42% ;
+    height: 600px;
+    
+    position:absolute;
+    margin-left: 160px;
+    margin-top: -290px;
+    
+    
+    background-color: rgb(13,12,17);
+
+}
+
+
+
+
+
+
+
+
+
+.sec-3{
+    margin-top: 490px;
+}
+
+
+
+
+
+.conte3 span{
+    position:relative;
+    left: 40%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Syne', sans-serif;
+    bottom: 0px;
+}
+
+
+.conte3 h3{
+    color: white;
+    position: relative;
+    left: 14%;
+    max-width: 200px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    bottom: -200px;
+    margin-bottom: 0px;
+}
+
+
+
+.siente{
+    color: white;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    bottom: -250px;
+    left: 10%;
+    max-width: 400px;
+    
+}
+
+
+
+.horario2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 15%;
+    bottom:-300px;
+    max-width: 200px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+.ancre{
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(13,12,17);
+    width: 170px;
+    height: 50px;
+    left:15%;
+    bottom:-340%;
+    border: 1px solid white;
+    padding: 15px 0px 0px 30px;
+    color: white;
+}
+
+.ancre:hover{
+    transition: .3s ease-in-out;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.mesare{
+    font-size: 15px;
+    font-family: normal normal normal,sans-serif;
+    font-weight:lighter;
+}
+
+
+
+.variedades{
+
+    background-image: url(../imagenes/zyro-image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 45% 105%;
+
+    background-position: 37em;
+
+    width: 44% ;
+    height: 600px;
+    
+    position:absolute;
+    margin-left: 44%;
+    margin-top: -50px;
+    
+    
+    
+    
+    background-color: rgb(13,12,17);
+
+
+}
+
+
+
+
+
+.sec-4{
+    margin-top: 200px;
+}
+
+
+
+.conte4{
+    margin-top: 55%;
+    position: relative;
+
+}
+
+
+.conte4 h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Syne', sans-serif;
+    position: absolute;
+    left: 40%;
+    margin-left: -250px;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-disfru{
+    min-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 15px ;
+    margin: auto;
+    padding: 150px 0px 400px 10px ;
+    
+
+}
+
+
+
+
+
+
+
+.disfrutar{
+
+    overflow: hidden;
+    width: 650px;
+    height: 655px;
+    position: relative;
+   
+    
+}
+
+.disfrutar img{
+    width: 100%;
+    height: 120%;
+    transition: 0.9s ease-out;
+    object-fit: cover;
+}
+
+.disfrutar img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+.contenedor-hijo{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 15px;
+}
+
+
+
+
+.disfrutar1{
+ 
+    overflow: hidden;
+    width: 320px;
+    height: 320px;
+    position: relative;
+
+}
+
+
+.disfrutar1 img{
+    width: 100%;
+    height: 120%;
+    transition: 0.9s ease-out;
+    object-fit: cover;
+}
+
+
+.disfrutar1 img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.disfrutar2{
+   
+    overflow: hidden;
+    width: 320px;
+    height: 320px;
+    position: relative;
+
+}
+
+
+
+
+.disfrutar2 img{
+    width: 100%;
+    height: 120%;
+    transition: 0.9s ease-out;
+    object-fit: cover;
+}
+
+
+.disfrutar2 img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.disfrutar3{
+    
+    overflow: hidden;
+    width: 320px;
+    height: 320px;
+
+    position: relative;
+
+}
+
+
+.disfrutar3 img{
+    width: 100%;
+    height: 120%;
+    transition: 0.9s ease-out;
+    object-fit: cover;
+}
+
+.disfrutar3 img:hover{
+    transform: scale(1.1);
+}
+
+
+.disfrutar4{
+   
+    overflow: hidden;
+    width: 320px;
+    height: 320px;
+    position: relative;
+
+}
+
+.disfrutar4 img{
+    width: 100%;
+    height: 120%;
+    transition: 0.9s ease-out;
+    object-fit: cover;
+}
+
+
+.disfrutar4 img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.sec-5{
+    margin-bottom: 100px;
+}
+
+
+
+
+.ubicacion h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 20px;
+    margin-top: -200px;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: rgb(10, 7, 31);
+    height: auto;
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+
+.conte-footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+
+
+
+.unite{
+    margin-top: 50px;
+}
+
+
+.anclogo{
+    transition-timing-function: .10s ease-in-out;
+}
+
+.unite img{
+    width: 170px;
+    height: 170px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+    
+}
+
+
+.unite h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 250px;
+    margin-top: -30px;
+
+}
+
+
+
+
+
+
+
+.contacto{
+    margin-top: 70px;
+    margin-left: 100px;
+   
+}
+.contacto h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+
+}
+
+
+
+.wharap{
+    display: flex;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.wharap:hover{
+    color: rgb(196, 110, 13);
+    transition: .3s ;
+}
+
+
+.wharap p{
+    margin-left: 10px;
+}
+
+
+
+.gimeil{
+    display: flex;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+.gimeil:hover{
+    color: rgb(196, 110, 13);
+    transition: .3s ;
+}
+
+
+
+.gimeil p{
+    margin-left: 10px;
+}
+
+
+.warap{
+    margin-top: 20px;
+}
+
+.correo{
+    margin-top: 30px;
+}
+
+
+.what{
+    font-size: 24px;
+}
+
+
+.gmail{
+    font-size: 24px;
+}
+
+
+
+.IG{
+    margin-top: 30px;
+}
+
+.insta{
+    display: flex;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+.insta:hover{
+    color: rgb(196, 110, 13);
+    transition: .3s ;
+}
+
+.insta p{
+    margin-left: 10px;
+}
+
+
+.ig{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+.horarios{
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+
+.horarios h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+
+.horarios p{
+    color: white;
+    width: 180px;
+    line-height: 50px;
+
+
+}
+
+
+
+
+
+
+
+.contenedor-linear{
+    
+    background-color: rgb(10, 7, 31);
+    margin-bottom: 0;
+    
+    
+}
+
+.linea{
+    margin-top: 0px;
+    color: rgba(240, 248, 255, 0.637);  
+    margin-bottom: 0;
+    display: flex;
+}
+
+
+
+.contubi{
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+
+.ubication{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.842);
+    display: flex;
+}
+
+.ubicacion{
+    font-size: 19px;
+}
+
+.ubication p{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.conte-bar1{
+    margin-left: 200px;
+    margin-top: -18px
+}
+
+
+.anc-notam{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(185, 182, 182, 0.808);
+}
+
+
+
+.conte-listali{
+
+    margin-left: 840px;
+    margin-top: -18px;
+    margin-bottom: 0;
+    display: flex;
+}
+
+
+
+.lista-linea{
+    list-style-type: none;
+}
+
+
+
+.ancli1{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(177, 175, 175, 0.808);
+    margin-left: 30px;
+}
+
+.ancli2{
+
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(177, 175, 175, 0.808);
+    margin-left: 30px;
+}
+
+
+.ancli3{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(177, 175, 175, 0.808);
+    margin-left: 30px;
+}
